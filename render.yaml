@@ -10,9 +10,5 @@ services:
       mountPath: /data
       sizeGB: 1
     envVars:
-      - key: YOUR_EMAIL
-        sync: false
-      - key: APP_PASSWORD
-        sync: false
       - key: NOTIFY_EMAIL
         sync: false
